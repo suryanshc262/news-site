@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Times Magazine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #222;
+      margin-bottom: 20px;
+    }
+    .topics {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .topic-card {
+      background: white;
+      flex: 1;
+      min-width: 250px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .featured {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+    .featured h3 {
+      margin-top: 0;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form input, form button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #222;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Global Times Magazine</h1>
+    <p>Your daily dose of news & stories</p>
+  </header>
+
+  <nav>
+    <a href="#topics">Topics</a>
+    <a href="#featured">Featured Articles</a>
+    <a href="#subscribe">Subscribe</a>
+  </nav>
+
+  <section id="topics" class="topics">
+    <h2>Topics</h2>
+    <div class="topic-card">
+      <h3>Technology</h3>
+      <p>Latest updates on gadgets, AI, and innovations shaping the future.</p>
+    </div>
+    <div class="topic-card">
+      <h3>Lifestyle</h3>
+      <p>Trends in fashion, health, and everyday living tips.</p>
+    </div>
+    <div class="topic-card">
+      <h3>Sports</h3>
+      <p>Highlights, scores, and stories from the world of sports.</p>
+    </div>
+    <div class="topic-card">
+      <h3>Travel</h3>
+      <p>Explore destinations, travel tips, and cultural experiences worldwide.</p>
+    </div>
+  </section>
+
+  <section id="featured" class="featured">
+    <h2>Featured Articles</h2>
+    <h3>The Rise of Artificial Intelligence</h3>
+    <p>AI is transforming industries from healthcare to finance. Discover how it impacts our daily lives.</p>
+    <hr>
+    <h3>Top 10 Travel Destinations for 2025</h3>
+    <p>From tropical beaches to bustling cities, here are the must-visit places this year.</p>
+  </section>
+
+  <section id="subscribe" class="subscribe">
+    <h2>Subscribe to Our Magazine</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Global Times Magazine | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
